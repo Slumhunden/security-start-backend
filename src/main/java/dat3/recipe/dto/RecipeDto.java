@@ -8,7 +8,7 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-public class RecipeDto {
+
     @Getter
     @Setter
     @NoArgsConstructor
@@ -41,4 +41,4 @@ public class RecipeDto {
         }
     }
 
-}
+

@@ -1,4 +1,4 @@
-package dat3.security.api;
+package dat3.recipe.api;
 
 import dat3.security.dto.LoginRequest;
 import dat3.security.dto.LoginResponse;

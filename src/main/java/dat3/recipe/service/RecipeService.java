@@ -10,7 +10,6 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
-public class RecipeService {
     @Service
     public class RecipeService {
         public List<RecipeDto> getAllRecipes(String category) {
@@ -37,4 +36,4 @@ public class RecipeService {
         }
     }
 
-}
+
