@@ -21,6 +21,7 @@ import java.time.LocalDateTime;
         private String ingredients;
         private String youTube;
         private String thumb;
+        private String owner;
         private String source;
         private LocalDateTime created;
         private LocalDateTime edited;
@@ -32,6 +33,7 @@ import java.time.LocalDateTime;
             this.ingredients = r.getIngredients();
             this.youTube = r.getYouTube();
             this.thumb = r.getThumb();
+            this.owner = r.getOwner();
             this.source = r.getSource();
             this.category = r.getCategory().getName();
             if(includeAll){

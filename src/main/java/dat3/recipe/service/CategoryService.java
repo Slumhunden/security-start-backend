@@ -20,4 +20,9 @@ public class CategoryService {
         return categories.stream().map((c)->new String(c.getName())).toList();
     }
 
+    public List<String> addCategory(String category) {
+        Category newCategory = new Category(category);
+        categoryRepository.save(newCategory);
+        return getAllCategories();
+    }
 }

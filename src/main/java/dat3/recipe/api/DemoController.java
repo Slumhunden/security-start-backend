@@ -1,8 +1,6 @@
 package dat3.recipe.api;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import dat3.recipe.dto.InfoResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -11,16 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.security.Principal;
-
-@Getter
-@Setter
-@NoArgsConstructor
-class InfoResponse {
-    String info;
-    public InfoResponse(String info) {
-        this.info = info;
-    }
-}
 
 @RestController
 @RequestMapping("/api/demo")
